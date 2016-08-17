@@ -1,4 +1,4 @@
-# AngularJS Scaffold
+# Simple Vagrant (node + apache)
 
 Creates a VERY simple vagrant setup with apache and node installed.  Maps the default 80 and 443 ports to 8001 and 8443 of the host computer. 
 
