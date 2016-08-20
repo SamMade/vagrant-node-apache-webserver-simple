@@ -4,3 +4,4 @@ base:
     - node
     - git
     - self_sign
+    - fontconfig
