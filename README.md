@@ -1,8 +1,14 @@
 # Simple Vagrant (node + apache)
 
-Creates a VERY simple vagrant setup with apache and node installed.  Maps the default 80 and 443 ports to 8001 and 8443 of the host computer. 
+Creates a VERY simple vagrant setup with CENTOS 
 
-Also to create a self-signed cert, in VM call
-sudo salt-call tls.create_self_signed_cert tls_dir='web-app'
+## Salt Configuration
 
-VHOST file needs to be changed accordingly if using folder not called 'web-app'
+Installs
+ * Apache (vhost assumes folder called 'web-app')
+ * Node
+ * NPM
+ * Self Signed Cert
+ * Fontconfig (PhantomJS dependency)  
+
+Maps the default 80 and 443 ports to 8001 and 8443 of the host computer. 
